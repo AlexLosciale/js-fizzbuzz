@@ -12,15 +12,14 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 3-stampare i vari rislutati 
 */
 
-for (let i = 0; i < 100; ++i) {
-    if () {
-        
-
-    } if else () {
-        
-
+for (let i = 0; i < 100; i++) {
+    if (i % 3 == 0) {
+        console.log("fizz");
+    } else if (i % 5 == 0) {
+        console.log("buzz");
+    } else if (i % 15 == 0) {
+        console.log("fizzbuzz");
     } else {
-
-        
+        console.log(i);
     }
 }
